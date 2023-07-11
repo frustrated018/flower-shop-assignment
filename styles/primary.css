@@ -20,16 +20,17 @@ body {
 
 .banner {
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     align-items: center;
     margin: 0px 240px;
-    padding-top: 50px;
+    padding-top: 30px;
     /* border: 3px solid red; */
 }
 
 .banner content {
-    /* border: 3px solid lime; */
     width: 70%;
+    /* border: 3px solid lime; */
+    
     /* margin-right: 97px; */
 }
 
@@ -141,3 +142,38 @@ body {
     font-weight: 700;
     line-height: 35px;
 }
+
+/* service section related styles */
+
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    padding: 85px;
+    margin: 125px 240px;
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+
+.services-img {
+    width: 88px;
+    height: 88px;
+    margin-bottom: 25px;
+}
+
+.services-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 0px;
+    
+}
+
+
+/* Hot deals section */
