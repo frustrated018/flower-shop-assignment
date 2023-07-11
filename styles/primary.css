@@ -201,7 +201,7 @@ body {
     gap: 200px;
     text-align: center;
     padding: 100px 350px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .hot-deals-title {
